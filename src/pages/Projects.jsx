@@ -11,7 +11,7 @@ export default function Projects() {
                             <button className="btn btn-outline-info btn-lg mt-1">Deploy</button> <button className="btn btn-outline-info btn-lg mt-1">Aplicação no Ar</button>
                         </div>
                         <div className="contentThumb">
-                            <img src="../../public/images/project1.png" alt="" />
+                            <img src="/images/project1.png" alt="" />
                         </div>
                     </div>
 
@@ -19,7 +19,7 @@ export default function Projects() {
                 <div className="box mb-5">
                     <div className="contentBox">
                         <div className="contentThumb" >
-                            <img src="../../public/images/project2.png" alt="" />
+                            <img src="/images/project2.png" alt="" />
                         </div>
                         <div className="projectDesc">
                             <h4 style={{ color: '#e017e0' }}>Pomodoro</h4>
@@ -37,7 +37,7 @@ export default function Projects() {
                             <button className="btn btn-outline-info btn-lg mt-1">Deploy</button> <button className="btn btn-outline-info btn-lg mt-1">Aplicação no Ar</button>
                         </div>
                         <div className="contentThumb">
-                            <img src="../../public/images/project3.png" alt="" />
+                            <img src="/images/project3.png" alt="" />
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ export default function Projects() {
                 <div className="box mb-5">
                     <div className="contentBox">
                         <div className="contentThumb" >
-                            <img src="../../public/images/project4.png" alt="" />
+                            <img src="/images/project4.png" alt="" />
                         </div>
                         <div className="projectDesc">
                             <h4 style={{ color: '#e017e0' }}></h4>
