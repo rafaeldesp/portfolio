@@ -12,7 +12,7 @@ export default function Home() {
     });
 
     return (
-        <section className="paginaInicial" id="home">
+        <section className="initPage" id="home">
             <div className="conteudoHome container">
                 <div className="textType">
                     <h3>Oi, eu sou</h3>
@@ -24,7 +24,7 @@ export default function Home() {
                         </span></h2>
 
                     <span><a href="https://www.linkedin.com/in/rafaelluzb/" target="blank"><FaLinkedin /></a><a href="https://github.com/rafaeldesp" target="blank"><FaGithub /></a></span>
-                    <br />
+
                     
                 </div>
             </div>

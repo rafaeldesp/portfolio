@@ -1,6 +1,7 @@
+/* eslint-disable react/jsx-key */
 export default function Skills( {images} ) {
     return (
-        <section className="skillsPage">
+        <section className="skillsPage" id="skills">
             <h1>Habilidades</h1>
             <div className="banner-wrapper">
                 <div className="wrapper">

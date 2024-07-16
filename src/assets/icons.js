@@ -23,4 +23,8 @@ export const images = [
         src: 'https://img.icons8.com/?size=100&id=108784&format=png&color=000000',
         name: 'JavaScript'
     },
+    {
+        src: 'https://img.icons8.com/?size=100&id=wpZmKzk11AzJ&format=png&color=000000',
+        name: 'TypeScript',
+    }
 ]

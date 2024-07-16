@@ -4,21 +4,14 @@
   box-sizing: border-box;
 }
 
-.starbackground {
-  width: 100%;
-  height: auto;
-  position: fixed;
-  inset: 0;
-  z-index: 20px;
-}
 
 .header {
   position: fixed;
   height: 8vh;
   width: 100%;
   padding: 5px 100px;
+  border-radius: 50px;
   background: linear-gradient(135deg, rgba(255,255,255, 0.1), rgba(255,255,255,0));
-  border-radius: 20px;
   box-shadow: 0 8px 32px 0 rgba(0,0,0, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -44,11 +37,11 @@
   text-decoration: none;
   list-style: none;
   margin-top: 9px;
+  gap: 40px;
 }
 
 .conteudo a {
   position: relative;
-  margin-left: 40px;
   letter-spacing: 3px;
   text-decoration: none;
   color: white;
@@ -69,7 +62,7 @@
   width: 100%;
 }
 
-.paginaInicial {
+.initPage {
   
   background: url(https://static.vecteezy.com/system/resources/previews/027/102/459/non_2x/moon-shining-above-dark-forest-silhouette-serene-outdoor-night-scene-free-photo.jpg);
   background-size: cover;
@@ -97,7 +90,7 @@
 
 .textoDigitando {
   font-weight: bold;
-  color: aqua;
+  color: #0dcaf0;
 }
 
 .container a {
@@ -114,7 +107,7 @@
   }
 }
 
-.about {
+.aboutPage {
   color: white;
   height: 400px;
   padding: 40px;
@@ -181,7 +174,7 @@
   }
 }
 
-.projectPage {
+.projectsPage {
   width: 100%;
   height: 220vh;
   background: #010101;
@@ -189,7 +182,7 @@
   color: white;
 }
 
-.projectPage h1 {
+.projectsPage h1 {
   padding: 50px;
 }
 
@@ -233,6 +226,8 @@
 
 .projectDesc {
   padding: 20px;
+  min-width: 566px;
+  min-height: 275px;
 }
 
 .contentThumb img{
@@ -294,4 +289,180 @@
   width: 300px;
   border: none;
   border-radius: 20px;
+}
+
+.projectDesc a{
+  height: 48px;
+  font-size: 20px;
+  width: 148px;
+  color: #0dcaf0;
+  
+}
+
+.skillsUtils img{
+  width: 48px;
+  height: 48px;
+  margin: 10px 10px;
+}
+
+.icons {
+  position: absolute;
+  font-size: 38px;
+  cursor: pointer;
+  display: none;
+  right: 5%;
+  margin-bottom: 10px;
+}
+
+.icons button {
+  background: none;
+  border: none;
+  color: white;
+}
+
+.active {
+  background: black;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+@media (max-width: 1200px) {
+  .contentBox {
+    display: flex;
+  }
+  .contentThumb img{
+    padding: 20px;
+    height: 200px;
+    border-radius: 30px;
+    transition: 1s;
+  }
+
+  .projectDesc {
+    padding: 10px;
+    font-size: 5px;
+  }
+
+  .projectDesc h4 {
+    font-size: 20px;
+  }
+
+  .projectDesc h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 990px) {
+
+  .header h4{
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .projectsPage {
+    height: 320vh;
+  }
+
+  .box {
+    height: 600px;
+  }
+
+  .contentBox {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contentThumb img{
+    padding: 20px;
+    height: 250px;
+    border-radius: 30px;
+    transition: 1s;
+  }
+
+  .projectDesc {
+    padding: 10px;
+    font-size: 5px;
+    height: 200px;
+  }
+
+  .projectDesc h4 {
+    font-size: 20px;
+  }
+
+  .projectDesc h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 882px) {
+  .icons {
+    display: block;
+  }
+
+  .header {
+    border-radius: 0px;
+    background: black;
+  }
+
+  .conteudo {
+    display: none;
+  }
+
+  .active ul {
+    display: block;
+  }
+
+  .active li {
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center; 
+  }
+}
+
+@media (max-width: 565px) {
+  .box {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .contentThumb img{
+    height: 200px;
+  }
+
+  .projectDesc {
+    min-width: 200px;
+    min-height: 275px;
+  }
+
+  .projectDesc h4 {
+    font-size: 15px;
+  }
+
+  .projectDesc h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 426px) {
+  a {
+    max-width: 100px;
+    margin-right: 0px;
+  }
+
+  .contentThumb img{
+    height: 150px;
+  }
+
+  .projectDesc h5 {
+    font-size: 12px;
+  }
 }

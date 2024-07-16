@@ -1,8 +1,8 @@
 export default function Sobre() {
     return (
-        <section className="about">
+        <section className="aboutPage" id="about">
             <div className="aboutText">
-                <h2 style={{color: 'aqua'}}>Sobre Mim</h2>
+                <h2 style={{color: '#0dcaf0'}}>Sobre Mim</h2>
                 <p className="h4">Meu nome é Rafael Luz e eu sou um apaixonado por tecnologia que decidiu trilhar o caminho da programação.
                     Trabalhei em alguns projetos pessoais e freelances.
                 </p>
