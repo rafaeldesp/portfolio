@@ -125,7 +125,7 @@
 
 .skillsPage {
   width: 100%;
-  height: 30vh;
+  height: 290px;
   background: #010101;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -176,7 +176,7 @@
 
 .projectsPage {
   width: 100%;
-  height: 220vh;
+  height: 2100px;
   background: #010101;
   text-align: center;
   color: white;
@@ -242,7 +242,7 @@
 }
 
 .contactPage {
-  height: 90vh;
+  height: 1100px;
   width: auto;
   padding: 20px;
   color: white;
@@ -251,6 +251,8 @@
   justify-content: center;
   align-items: center;
   background: url(https://static.vecteezy.com/system/resources/previews/027/102/459/non_2x/moon-shining-above-dark-forest-silhouette-serene-outdoor-night-scene-free-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contactContainer {
@@ -260,7 +262,7 @@
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   width: 600px;
-  height: 60vh;
+  height: 600px;
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -365,12 +367,14 @@
     margin-top: 8px;
   }
 
-  .projectsPage {
-    height: 320vh;
-  }
+
 
   .box {
     height: 600px;
+  }
+
+  .projectsPage {
+    height: 2800px;
   }
 
   .contentBox {
