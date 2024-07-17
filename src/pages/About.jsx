@@ -7,7 +7,7 @@ export default function Sobre() {
                     Trabalhei em alguns projetos pessoais e freelances.
                 </p>
                 <p className="h4">Atualmente estou cursando análise e desenvolvimento de sistemas (ADS) e focando no desenvolvimento web.</p>
-                <a href=""><button type="button" class="btn btn-outline-info btn-lg mt-3">Meu Currículo</button></a>
+                <a href="https://drive.google.com/file/d/1b_tgXG1c8Fb0f2LlJUaCDSCpF8zf8s7E/view" target="blank"><button type="button" className="btn btn-outline-info btn-lg mt-3">Meu Currículo</button></a>
             </div>
             
         </section>
